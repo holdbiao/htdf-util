@@ -1,0 +1,8 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false
+    }]
+  ],
+  "plugins": ["external-helpers"]     //只引入一次babel的helper函数
+}

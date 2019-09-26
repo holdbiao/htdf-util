@@ -1,0 +1,1 @@
+!function(e){"function"==typeof define&&define.amd?define(e):e()}(function(){"use strict";var n=require("create-hash"),r=require("secp256k1");exports.sha256=function(e){return n("sha256").update(e).digest()},exports.ecsign=function(e,n){var i=r.sign(e,n);return{r:i.signature.slice(0,32),s:i.signature.slice(32,64)}}});

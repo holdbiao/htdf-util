@@ -1,0 +1,26 @@
+{
+  "name": "htdf-util",
+  "version": "1.0.1",
+  "description": "htdf utils",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "htdf",
+    "util"
+  ],
+  "author": "holdbiu",
+  "license": "ISC",
+  "dependencies": {
+    "create-hash": "^1.2.0",
+    "secp256k1": "^3.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup-plugin-babel": "^3.0.7"
+  }
+}
